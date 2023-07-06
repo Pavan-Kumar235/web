@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ex</title>
+		<style>
+			body {
+				margin: 0;
+			}
+			.menu {
+				display: flex;
+				justify-content: space-between;
+				background-color: black;
+				height: 70px;
+				align-items: center;
+				gap: 20px;
+			}
+
+			.menu #home img{
+				display: flex;
+				align-items: center;
+				width: 60px;
+				margin-left: 5px;
+			}
+
+			.menu #links {
+				display: flex;
+				gap: 30px;
+				margin-right: 10px;
+			}
+
+			.menu #links a {
+				font-size: 30px;
+				text-decoration: none;
+			}
+			.menu #links a:link {
+				color: red;
+			}
+			.menu #links a:visited {
+				color: green;
+			}
+			.menu #links a:hover {
+				color: pink;
+			}
+			.menu #links a:active {
+				color: blue;
+			}
+			.menu #links .first {
+				margin-right: 20px;
+			}
+			.container_1 {
+				display: flex;
+				justify-content: center;
+			}
+			.container_1:hover {
+				color: red;
+				font-size: 50px;
+				font-style: bold;
+				background-color: green;
+			}
+		</style>
+	</head>
+	<body>
+		<br>
+		<div class="menu">
+			<div id="home">
+				<a href="#"><img src="https://cdn.pixabay.com/photo/2017/11/07/07/06/menu-2925825_1280.png"/></a>
+			</div>
+			<div id="links">
+				<a href="https://www.google.com">google</a>
+				<a href="https://www.w3schools.com">w3schools</a>
+				<a cass="first" href="https://www.gainandshine.com">gain and shine</a>
+			</div>
+		</div>
+		<br><br> 	
+		<div class="container_1">
+			this is the container text
+		</div>
+	</body>
+</html>
